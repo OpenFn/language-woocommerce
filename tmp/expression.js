@@ -1,15 +1,4 @@
-postData({
-  url: "https://requestb.in/1o25t8p1",
-  "body": function(state) {
-        return {
-          "field_1": "some_data",
-          "field_2": "some_more_data",
-          "peopleCallMe": state.data.name
-        }
-
-  },
-  headers: {
-      "Authorization": "AUTH_KEY",
-      "Content-Type": "application/json"
-  }
-})
+fetch({
+  "endpoint": "customers", //first, tell us the endpoint to hit
+  "postUrl": "https://www.openfn.org/inbox/39eda7e1-6998-47d4-9927-0311d5d00329" //next, tell us where to send the data...
+});

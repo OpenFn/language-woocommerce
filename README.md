@@ -19,13 +19,7 @@ Documentation
 
 #### sample fetch expression
 ```js
-fetch({
-  "getEndpoint": "api/v1/forms/data/wide/json/mod_coach",
-  "query": function(state) {
-      return { "date": dataValue("_json[(@.length-1)].SubmissionDate")(state) }
-  },
-  "postUrl": "http://localhost:4000/inbox/8ad63a29-5c25-4d8d-ba2c-fe6274dcfbab",
-})
+fetch(endpoint, postUrl)
 ```
 
 [Docs](docs/index)

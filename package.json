@@ -15,7 +15,8 @@
   ],
   "dependencies": {
     "language-common": "github:openfn/language-common#v0.0.5",
-    "request": "^2.72.0"
+    "request": "^2.72.0",
+    "woocommerce-api": "^1.4.2"
   },
   "devDependencies": {
     "assertion-error": "^1.0.1",
